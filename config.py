@@ -86,7 +86,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://hentaibot-q67a.onrender.com/")
+URL = environ.get("URL", "https://diverse-trina-aquib-9fb28e57.koyeb.app/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
