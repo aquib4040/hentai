@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "20697474"))
 API_HASH = environ.get("API_HASH", "1acf41c146d578a57741ab0760208eb4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7595992622:AAF6qRvpEIJo8Zck1YyKGADumz0ppQtqeog")
 
-PICS = (environ.get('PICS', 'https://i.ibb.co/jvJD8k8c/wallpaperflare-com-wallpaper.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://i.ibb.co/DgjJ5jNN/5846928319839318891.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5851158054').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "HanteiHUB_BOT") # without @
 PORT = environ.get("PORT", "8080")
