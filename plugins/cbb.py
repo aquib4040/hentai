@@ -54,10 +54,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         elif query.data == "start":
             buttons = [[
-                InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@PhdLust')
+            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+eKKOHxiwKv00MGM1')
             ],[
-                InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/ultroidxTeam'),
-                InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/ultroid_official')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+zlb3ReuJ40tjMDA1'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KGN_BOT_Z')
             ],[
                 InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
