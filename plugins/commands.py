@@ -135,7 +135,7 @@ async def start(client, message):
         if is_valid:
             await verify_user(client, userid, token)
             return await message.reply_text(
-                f"<b>Hey {message.from_user.mention}, you are successfully verified!\nYou now have unlimited access for {(TOKENTIME / 3600):.2f} hours.</b>",
+                f"<b>Hey {message.from_user.mention}, ʏᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ!\nYᴏᴜ ɴᴏᴡ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ {(TOKENTIME / 3600):.2f} ʜᴏᴜʀs.</b>",
                 protect_content=True
             )
         else:
