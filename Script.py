@@ -30,7 +30,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 
 
-    ABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @𝙃𝘼𝙉𝙏𝙀𝙄_𝙃𝙐𝘽
+    ABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @HANTEI_HUB
 
 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 
@@ -45,7 +45,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/KGN_BOT_Z>KGN 𝐔𝐩𝐝𝐚𝐭𝐞</a></b>
 """
 
-    CABOUT_TXT = """<b>ʜɪ ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @𝙃𝘼𝙉𝙏𝙀𝙄_𝙃𝙐𝘽
+    CABOUT_TXT = """<b>ʜɪ ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ғᴏʀ @HANTEI_HUB
 
 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 
