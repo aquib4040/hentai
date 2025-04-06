@@ -149,7 +149,7 @@ async def start(client, message):
                     InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                 ]]
                 await message.reply_text(
-                    text="<b>👋 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ , ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ 24 ʜᴏᴜʀs</b>",
+                    text="<b>👋 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ , ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ 4 ʜᴏᴜʀs</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -251,7 +251,7 @@ async def start(client, message):
             InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
         ]]
         await message.reply_text(
-            text="<b>👋 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ , ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ 24 ʜᴏᴜʀs</b>",
+            text="<b>👋 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ , ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ 4 ʜᴏᴜʀs</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
