@@ -128,7 +128,7 @@ async def start(client, message):
         token = data.split("-", 3)[2]
         
         if str(message.from_user.id) != str(userid):
-            return await message.reply_text("<b>Invalid or expired link!</b>", protect_content=True)
+            return await message.reply_text("<b>Invalid or expired link!</b>", protect_content=False)
 
         is_valid = await check_token(client, userid, token)
         
@@ -136,10 +136,10 @@ async def start(client, message):
             await verify_user(client, userid, token)
             return await message.reply_text(
                 f"<b>Hey {message.from_user.mention}, ʏᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ!\nYᴏᴜ ɴᴏᴡ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ {(TOKENTIME / 3600):.2f} ʜᴏᴜʀs.</b>",
-                protect_content=True
+                protect_content=False
             )
         else:
-            return await message.reply_text("<b>Invalid or expired link!</b>", protect_content=True)
+            return await message.reply_text("<b>Invalid or expired link!</b>", protect_content=False)
     elif data.split("-", 1)[0] == "BATCH":
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY_MODE == True:
@@ -150,7 +150,7 @@ async def start(client, message):
                 ]]
                 await message.reply_text(
                     text="<b>👋 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ , ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ 4 ʜᴏᴜʀs</b>",
-                    protect_content=True,
+                    protect_content=False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
                 return
@@ -252,7 +252,7 @@ async def start(client, message):
         ]]
         await message.reply_text(
             text="<b>👋 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ , ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ 4 ʜᴏᴜʀs</b>",
-            protect_content=True,
+            protect_content=False,
             reply_markup=InlineKeyboardMarkup(btn)
         )
         return
